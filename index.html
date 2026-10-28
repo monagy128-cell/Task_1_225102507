@@ -1,0 +1,77 @@
+<!-- 
+  Name: Mohamed Nagy Mohamed
+  Student ID: 225102507
+  Course: FT-WEB-101 - Field Training I
+  University: New Mansoura University
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohamed Nagy - Profile Page</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="nav-container">
+            <h1>Mohamed Nagy</h1>
+            <nav>
+                <a href="#about">About</a>
+                <a href="#cards-section">Cards</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Photo & Introduction -->
+        <section class="intro-section" id="about">
+            <img src="image/me.jpg..jpeg" alt="Mohamed Nagy   Profile Picture" class="profile-photo">
+            <button id="theme-toggle">Toggle Dark Mode</button>
+        </section>
+
+        <!-- Three Cards in a Row -->
+        <section class="cards-section" id="cards-section">
+            <div class="card">
+                <h3>Programming</h3>
+                <p>Passionate about Computer Science, C#, and building robust web applications.</p>
+            </div>
+            <div class="card">
+                <h3>Football</h3>
+                <p>An avid football fan, tracking international matches and league tournaments.</p>
+            </div>
+            <div class="card">
+                <h3>Problem Solving</h3>
+                <p>Constantly improving data structures, algorithms, and logical thinking.</p>
+            </div>
+        </section>
+
+        <!-- Contact Form -->
+        <section class="form-section" id="contact">
+            <h2>Get in Touch</h2>
+            <form>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required placeholder="Enter your email">
+                </div>
+                <button type="submit" class="submit-btn">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Mohamed Nagy. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
